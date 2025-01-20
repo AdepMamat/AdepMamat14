@@ -7,7 +7,7 @@ Terus lah Belajar sampai Kita Mahir Pada Bidang yang Kita suka dan kita Inginkan
 
 #NEWBIE
 
-![Deskripsi Foto](images/nama_adepkasep.jpg)
+
 
 
 
