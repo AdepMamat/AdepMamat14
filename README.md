@@ -7,7 +7,7 @@ Terus lah Belajar sampai Kita Mahir Pada Bidang yang Kita suka dan kita Inginkan
 
 #NEWBIE
 
-![Deskripsi Foto](images/adepkasep.png
+![Deskripsi Foto](images/adep_kasep.jpg)
 )
 
 
