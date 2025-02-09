@@ -1,67 +1,86 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      /* Custom Styles */
+      body {
+        background-color: #f8f9fa;
+      }
 
-    <title>Narrow Jumbotron Template for Bootstrap</title>
+      header {
+        background-color: #1cd426;
+        color: white;
+        padding: 20px 0;
+      }
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../css/editor.css" rel="stylesheet">
+      h2 {
+        color: #113cc9;
+      }
 
-    <!-- Custom styles for this template -->
-    <link href="narrow-jumbotron.css" rel="stylesheet">
-  </head>
-
-  <body>
-
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 0;
+        background-color: #007bff;
+        color: white;
+      }
+</style>
+</head>
+<body>
     <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills float-right">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Project name</h3>
-      </div>
+        <header class="text-center mt-5">
+            <h1>🖐️Holla🖐️, saya Adep Mamat Apriliadi</h1>
+            <p>Belajar | Coding | Programmer</p>
+            <img src="adep kasep.jpg" class="img-fluid" alt="Adep Mamat Apriliadi">
+        </header>
 
-      <div class="jumbotron">
-        
-        <p class="lead">Halo! Nama saya Adep Mamat Apriliadi seorang Mahasiswa dengan pengalaman kerja kurang lebih 5 Tahun, Saya memiliki hasrat besar terhadap Dunia IT yaitu saya ingin menjadi seorang Programming dan saya selalu berusaha untuk belajar dan berkembang dalam bidang ini.</p>
-        <p></p>
-      </div><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a>
+        <section id="about" class="mt-5">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seseorang yang sedang belajar untuk mengembangkan minat dan bakat saya terhadap Bahasa Pemrograman JavaScript. Teruslah belajar sampai kita mahir pada bidangnya💚💙</p>
+        </section>
+        <section id="projects" class="mt-5">
+            <h2>Proyek Saya</h2>
+            <ul>
+                <li><a href="[URL proyek 1]">Latihan 1</a> - Membuat halaman Login</li>
+                <li><a href="[URL proyek 2]">Latihan 2</a> - Membuat E-Commerce</li>
+                <li><a href="[URL proyek 3]">Latihan 3</a> - Membuat Halaman Menjadi Lebih Indah</li>
+            </ul>
+        </section>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Catatan kecil<br></h4>
-          <p>saya adalah sorang pemula yang ingin terus berkembang di bidang IT<br></p>
+        <section id="contact" class="mt-5">
+            <h2>Kontak</h2>
+            <p>Email saya: adepmamat23@gmail.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; <span id="year"></span> Adep Mamat Apriliadi, Hak ini Dilindungi Oleh Siapa?</p>
+    </footer>
+</body>
 
+    
+    <script>
+        // Custom JavaScript
+          window.onload = function() {
+          alert("Selamat datang di Portofolio Saya!");
           
-          
+          // Change background color of sections on click
+          const sections = document.querySelectorAll('section');
+          sections.forEach(section => {
+              section.addEventListener('click', () => {
+                  section.style.backgroundColor = section.style.backgroundColor === 'lightblue' ? '' : 'lightblue';
+              });
+          });
+      };
+    </script>
 
-          
-          
-        </div>
-
-        
-      </div>
-
-      <footer class="footer">
-        <p><br></p>
-      </footer>
-
-    <div align="center" data-component-instagram="" style="border: 1px dashed rgb(66, 133, 244);">			<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/tsxp1hhQTG/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><p style=" margin:8px 0 0 0; padding:0 4px;"> Adep Mamat Apriliadi<br></p><div style="padding:8px;">   </div></blockquote>			<script async="" defer="" src="//www.instagram.com/embed.js" type="true/true/false/"></script>		</div></div> <!-- /container -->
-  
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
