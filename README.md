@@ -1,4 +1,4 @@
-![alt text] (https://github.com/AdepMamat/AdepMamat14/blob/main/adep%20kasep.jpg?raw=true)
+![alt text](https://github.com/AdepMamat/AdepMamat14/blob/main/adep%20kasep.jpg?raw=true)
 👋 Halloo, saya AdepMamat
 👀 Saya tertarik dengan Dunia Coding
 🌱 Saat ini aku sedang belajar Bahasa Pemrograman JavaScript
@@ -21,7 +21,6 @@ Terus lah Belajar sampai Kita Mahir Pada Bidang yang Kita suka dan kita Inginkan
         <header class="text-center mt-5">
             <h1>🖐️Holla🖐️,saya Adep Mamat Apriliadi</h1>
             <p>Belajar | Coding | Programmer</p>
-            <img src="adepp.png">
         </header>
 
         <section id="about" class="mt-5">
