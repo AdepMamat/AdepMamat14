@@ -16,17 +16,13 @@ Terus lah Belajar sampai Kita Mahir Pada Bidang yang Kita suka dan kita Inginkan
 <body>
     <div class="container">
         <header class="text-center mt-5">
-
-            ![alt text](https://github.com/AdepMamat/AdepMamat14/blob/main/adep%20kasep.jpg?raw=true)
-            <h1>🖐️Holla🖐️,saya Adep Mamat Apriliadi</h1>
+            <h1>🖐️Holla🖐️Saya Adep Mamat Apriliadi</h1>
             <p>Belajar | Coding | Programming</p>
         </header>
-
         <section id="about" class="mt-5">
             <h2>Tentang Saya</h2>
             <p>Saya adalah Seseorang yang sedang belajar untuk mengembangkan minat dan bakat saya terhadap Bahasa Pemrograman JavaScript, Teruslah Belajar sampai kita mahir pada bidangnya💚💙 </p>
         </section>
-
         <section id="projects" class="mt-5">
             <h2>Proyek Saya</h2>
             <ul>
@@ -35,7 +31,6 @@ Terus lah Belajar sampai Kita Mahir Pada Bidang yang Kita suka dan kita Inginkan
                 <li><a href="[URL proyek 3]">Latihan 3</a> - Membuat Halaman Menjadi Lebih Indah</li>
             </ul>
         </section>
-
         <section id="contact" class="mt-5">
             <h2>Kontak</h2>
             <p>Email saya: adepmamat23@gmail.com</p>
