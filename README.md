@@ -1,8 +1,5 @@
 ![alt text](https://github.com/AdepMamat/AdepMamat14/blob/main/adep%20kasep.jpg?raw=true)
-👋 Halloo, saya AdepMamat
-👀 Saya tertarik dengan Dunia Coding
-🌱 Saat ini aku sedang belajar Bahasa Pemrograman JavaScript
-💞️ Saya ingin berkolaborasi dalam Bidang IT
+
 
 Terus lah Belajar sampai Kita Mahir Pada Bidang yang Kita suka dan kita Inginkan💚💚
 
