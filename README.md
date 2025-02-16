@@ -16,8 +16,10 @@ Terus lah Belajar sampai Kita Mahir Pada Bidang yang Kita suka dan kita Inginkan
 <body>
     <div class="container">
         <header class="text-center mt-5">
+
+            ![alt text](https://github.com/AdepMamat/AdepMamat14/blob/main/adep%20kasep.jpg?raw=true)
             <h1>🖐️Holla🖐️,saya Adep Mamat Apriliadi</h1>
-            <p>Belajar | Coding | Programmer</p>
+            <p>Belajar | Coding | Programming</p>
         </header>
 
         <section id="about" class="mt-5">
