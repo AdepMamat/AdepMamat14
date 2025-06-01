@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tampilan UI/UX</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #fff;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 2rem;
+    }
+
+    .cta-btn {
+      padding: 0.8rem 2rem;
+      background: #1e90ff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .cta-btn:hover {
+      background: #0b66c2;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2rem;
+      background: #f0f0f0;
+    }
+
+    .feature {
+      flex: 1 1 300px;
+      background: white;
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .contact {
+      background: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    footer {
+      background: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>produk saya</h2>
+    <nav>
+      <a href="#features">Fitur</a>
+      <a href="#contact">Kontak</a>
+      <a href="#about">tentang kami</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Solusi Digital Untuk Bisnis Anda</h1>
+    <p>Mudah, cepat, dan terjangkau untuk semua jenis usaha.</p>
+    <button class="cta-btn" onclick="scrollToContact()">Mulai Sekarang</button>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>Desain Modern</h3>
+      <p>Desain yang mengikuti tren dan memudahkan pengguna.</p>
+    </div>
+    <div class="feature">
+      <h3>Mobile Friendly</h3>
+      <p>Tampilan optimal di semua perangkat, dari HP hingga desktop.</p>
+    </div>
+    <div class="feature">
+      <h3>Support 24/7</h3>
+      <p>Tim kami siap membantu kapan pun Anda butuh.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Hubungi Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama Anda" required>
+      <input type="email" placeholder="Email Anda" required>
+      <textarea rows="4" placeholder="Pesan Anda"></textarea>
+      <button type="submit" class="cta-btn">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Adep Mamat, Hak Cipta ini Dilindungi oleh siapa?</p>
+  </footer>
+
+  <script>
+    function scrollToContact() {
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
